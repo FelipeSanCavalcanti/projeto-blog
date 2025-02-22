@@ -130,6 +130,27 @@ article {
   padding: 10px 20px;
 }
 
+.criadores {
+  font-style: var(--font-secundaria);
+  font-size: 0.7em;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: var(--cor002);
+}
+
+.criadores > a:hover {
+  font-weight: bolder;
+  background-color: var(--cor-destaq);
+  padding: 0px 2px;
+  border-radius: 3px;
+  color: var(--cor-secund);
+}
+
+.criadores > a {
+  color: var(--cor-destaq);
+  text-decoration: underline;
+}
+
 .content {
   margin-bottom: 30px;
 }
